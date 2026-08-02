@@ -38,7 +38,7 @@ export default function WatchPage({ params }: { params: Promise<{ id: string }> 
           <h1 className="text-4xl font-bold">
             {movie ? movie.title : "Now Playing"}
           </h1>
-          <p className="text-zinc-500 mt-2">ID: {movieID} • Streaming from vidsrc.to</p>
+          <p className="text-zinc-500 mt-2">This website includes adverticements please ignore them</p>
           
           <button 
             onClick={() => {
