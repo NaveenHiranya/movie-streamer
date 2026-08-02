@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import { MOVIES } from "@/public/data/movies";
 
 const SMART_LINK =
-  "https://www.effectivecpmnetwork.com/y48688x65v?key=bcdaf495e11ac54f24ed2d6ee4536af7";
+  "https://www.effectivecpmnetwork.com/tv5gab03?key=eaace37b2401ae71853828ff363ed539";
 
 export default function HomePage() {
   const router = useRouter();
