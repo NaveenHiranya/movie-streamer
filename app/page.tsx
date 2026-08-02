@@ -47,7 +47,7 @@ export default function HomePage() {
                 className="object-cover w-full h-full"
               />
 
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent  transition-opacity flex items-end p-4">
                 <button
                   onClick={() => handleWatch(movie.id)}
                   className="bg-red-600 w-full py-2 rounded-lg font-semibold cursor-pointer"
