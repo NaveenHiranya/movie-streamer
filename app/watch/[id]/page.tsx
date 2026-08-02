@@ -18,7 +18,7 @@ export default function WatchPage({ params }: { params: Promise<{ id: string }> 
   return (
     <div className="min-h-screen bg-zinc-950 text-white">
       <nav className="p-4 border-b border-zinc-800 bg-black flex justify-between items-center">
-        <Link href="/" className="text-2xl font-bold text-red-600">NETFLUX</Link>
+        <Link href="/" className="text-2xl font-bold text-red-600">FOUNET</Link>
         <Link href="/" className="text-zinc-400 hover:text-white">← Back</Link>
       </nav>
 
