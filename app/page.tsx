@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { MOVIES } from '@/data/movies';
+import { MOVIES } from '@/public/data/movies';
 
 export default function HomePage() {
   return (
@@ -20,7 +20,7 @@ export default function HomePage() {
                 className="object-cover w-full h-full"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
-                <button className="bg-red-600 text-white w-full py-2 rounded-lg font-semibold">
+                <button className="bg-red-600 text-white w-full py-2 rounded-lg font-semibold cursor-pointer">
                   Watch Now
                 </button>
               </div>
