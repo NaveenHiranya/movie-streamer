@@ -1,3 +1,11 @@
+export interface Movie {
+  id: string;
+  title: string;
+  slug: string;
+  image: string;
+  year: string;
+}
+
 export const MOVIES: Movie[] = [
   {
     id: "1315772",
