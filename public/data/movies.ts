@@ -7,18 +7,18 @@ export interface Movie {
 }
 
 export const MOVIES: Movie[] = [
-  {
-    id: "1315772",
-    title: "Minions and Monsters",
-    slug: "minions-and-monsters",
-    image: "https://static1.showtimes.com/poster/160x236/minions-monsters-289770.jpg",
-    year: "2026",
-  },
+  
   {
     id: "969681",
     title: "Spider-Man: Brand New Day",
     slug: "spiderman-brand-new-day",
     image: "https://image.tmdb.org/t/p/w500/iPOn6DinuVyLY17YM9mKuPofV08.jpg",
+    year: "2026",
+  },{
+    id: "1315772",
+    title: "Minions and Monsters",
+    slug: "minions-and-monsters",
+    image: "https://static1.showtimes.com/poster/160x236/minions-monsters-289770.jpg",
     year: "2026",
   },
   {
